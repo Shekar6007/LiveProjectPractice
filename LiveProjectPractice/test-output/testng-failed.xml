@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="Edge"/>
+  <listeners>
+    <listener class-name="com.LiveProject.utility.ListenerClass"/>
+  </listeners>
+  <test name="Test-All(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.LiveProject.testcases.IndexPage1Test">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="afterSuite"/>
+          <include name="teardown"/>
+          <include name="titleee"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.LiveProject.testcases.IndexPage1Test -->
+      <class name="com.LiveProject.testcases.signUpPage1Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.LiveProject.testcases.signUpPage1Test -->
+      <class name="com.LiveProject.testcases.LogoutPage1Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.LiveProject.testcases.LogoutPage1Test -->
+      <class name="com.LiveProject.testcases.OrderConfirmPage1Rest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.LiveProject.testcases.OrderConfirmPage1Rest -->
+    </classes>
+  </test> <!-- Test-All(failed) -->
+</suite> <!-- Failed suite [Suite] -->
