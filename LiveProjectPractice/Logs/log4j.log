@@ -185,3 +185,11 @@
 2024-03-12 16:24:07 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
 2024-03-12 16:24:07 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
 2024-03-12 16:24:07 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/User/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2024-03-13 12:37:16 INFO  Log:23 - Browser is going to open with url
+2024-03-13 12:37:30 INFO  Log:12 - =====================================clicksignUp TEST START=========================================
+2024-03-13 12:37:30 INFO  Log:23 - clicking on signin button
+2024-03-13 12:37:31 INFO  Log:23 - clicked on sign in button
+2024-03-13 12:37:31 INFO  Log:16 - =====================================clicksignup TEST END=========================================
+2024-03-13 12:37:31 INFO  Log:23 - browser is going to close
+2024-03-13 12:37:32 INFO  Log:23 - Browser is going to open with url
+2024-03-13 12:37:42 INFO  Log:12 - =====================================titleee TEST START=========================================

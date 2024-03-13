@@ -7,7 +7,7 @@
   <test name="Test-All">
 <parameter name="browser" value="Edge"></parameter>
     <classes>
-      <class name="com.LiveProject.testcases.signUpPage1Test"/>
+      <!-- <class name="com.LiveProject.testcases.signUpPage1Test"/>
       <class name="com.LiveProject.testcases.IndexPage1Test"/>
       <class name="com.LiveProject.testcases.OrderConfirmPage1Rest"/>
       <class name="com.LiveProject.testcases.LogoutPage1Test"/>
@@ -17,7 +17,9 @@
       <class name="com.LiveProject.testcases.OrderOrProceedPage1Test"/>
       <class name="com.LiveProject.testcases.LoggedInPage1Test"/>
       <class name="com.LiveProject.testcases.AddToCartPAge1Test"/>
-      <class name="com.LiveProject.testcases.PaymentPage1Test"/>
+      <class name="com.LiveProject.testcases.PaymentPage1Test"/> -->
+      <class name="com.LiveProject.testcases.AccountCreatnPage1Test"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

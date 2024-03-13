@@ -91,13 +91,13 @@ public class DataProvidrsCls  {
 			return data;
 		}
 		
-		@DataProvider(name = "newAcountDetailsData")
+		@DataProvider(name = "createAccntDetails")
 		public Object[][] accountCreation() {
 
 			// Totals rows count
-			int rows = obj.getRowCount("AccountCreationData");
+			int rows = obj.getRowCount("accountcreationdetails");
 			// Total Columns
-			int column = obj.getColumnCount("AccountCreationData");
+			int column = obj.getColumnCount("accountcreationdetails");
 			int actRows = rows - 1;
 			//Created an object of array to store data
 			Object[][] data = new Object[actRows][1];
@@ -105,8 +105,8 @@ public class DataProvidrsCls  {
 			for (int i = 0; i < actRows; i++) {
 				Map<String, String> hashMap = new HashMap<>();
 				for (int j = 0; j < column; j++) {
-					hashMap.put(obj.getCellData("AccountCreationData", j, 1),
-							obj.getCellData("AccountCreationData", j, i + 2));
+					hashMap.put(obj.getCellData("accountcreationdetails", j, 1),
+							obj.getCellData("accountcreationdetails", j, i + 2));
 				}
 				data[i][0]=hashMap;
 			}
