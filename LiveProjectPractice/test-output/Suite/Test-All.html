@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test-All</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 13 12:38:31 IST 2024</td>
+<td>Started on:</td><td>Wed Mar 13 12:42:24 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (19 ms)</td>
+<tr><td>Total time:</td><td>619 seconds (619126 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,251 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.LiveProject.testcases.LoggedInPage1Test.clickOnProducts()'><b>clickOnProducts</b><br>Test class: com.LiveProject.testcases.LoggedInPage1Test</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: MicrosoftEdge=122.0.2365.80)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-SHH2K20&apos;, ip: &apos;192.168.1.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.80, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62512}, msedge: {msedgedriverVersion: 122.0.2365.80 (bfff41c27eb2..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3395aab32605ae68b7c119e13472900
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.LiveProject.Actions.ActionDivers.click(ActionDivers.java:42)
+	at com.LiveProject.Pageobjects.SignUpPage.loginFunction(SignUpPage.java:47)
+	at com.LiveProject.testcases.LoggedInPage1Test.clickOnProducts(LoggedInPage1Test.java:37)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace476179877", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace476179877'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: MicrosoftEdge=122.0.2365.80)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-SHH2K20&apos;, ip: &apos;192.168.1.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.80, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62512}, msedge: {msedgedriverVersion: 122.0.2365.80 (bfff41c27eb2..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3395aab32605ae68b7c119e13472900
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.LiveProject.Actions.ActionDivers.click(ActionDivers.java:42)
+	at com.LiveProject.Pageobjects.SignUpPage.loginFunction(SignUpPage.java:47)
+	at com.LiveProject.testcases.LoggedInPage1Test.clickOnProducts(LoggedInPage1Test.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>42</td>
+<td>com.LiveProject.testcases.LoggedInPage1Test@239963d8</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.AddToCartPAge1Test.searchProduct()'><b>searchProduct</b><br>Test class: com.LiveProject.testcases.AddToCartPAge1Test</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: MicrosoftEdge=122.0.2365.80)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-SHH2K20&apos;, ip: &apos;192.168.1.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.80, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62567}, msedge: {msedgedriverVersion: 122.0.2365.80 (bfff41c27eb2..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b25434c864f21df67c80493d3728b17
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.LiveProject.Actions.ActionDivers.click(ActionDivers.java:42)
+	at com.LiveProject.Pageobjects.SignUpPage.loginFunction(SignUpPage.java:47)
+	at com.LiveProject.testcases.AddToCartPAge1Test.searchProduct(AddToCartPAge1Test.java:43)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1333923650", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1333923650'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: MicrosoftEdge=122.0.2365.80)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-SHH2K20&apos;, ip: &apos;192.168.1.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.80, fedcm:accounts: true, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62567}, msedge: {msedgedriverVersion: 122.0.2365.80 (bfff41c27eb2..., userDataDir: C:\Users\User\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b25434c864f21df67c80493d3728b17
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.LiveProject.Actions.ActionDivers.click(ActionDivers.java:42)
+	at com.LiveProject.Pageobjects.SignUpPage.loginFunction(SignUpPage.java:47)
+	at com.LiveProject.testcases.AddToCartPAge1Test.searchProduct(AddToCartPAge1Test.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>34</td>
+<td>com.LiveProject.testcases.AddToCartPAge1Test@754ba872</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.IndexPage1Test.titleee()'><b>titleee</b><br>Test class: com.LiveProject.testcases.IndexPage1Test</td>
+<td><div><pre>java.lang.AssertionError: expected [AutomationExercise] but found [Automation Exercise]
+	at com.LiveProject.testcases.IndexPage1Test.titleee(IndexPage1Test.java:51)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1037942373", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1037942373'><pre>java.lang.AssertionError: expected [AutomationExercise] but found [Automation Exercise]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.LiveProject.testcases.IndexPage1Test.titleee(IndexPage1Test.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>com.LiveProject.testcases.IndexPage1Test@4dfa3a9d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.LiveProject.testcases.OrderOrProceedPage1Test.addtocart()'><b>addtocart</b><br>Test class: com.LiveProject.testcases.OrderOrProceedPage1Test</td>
+<td></td>
+<td>54</td>
+<td>com.LiveProject.testcases.OrderOrProceedPage1Test@4667ae56</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.LogoutPage1Test.clickonLogout()'><b>clickonLogout</b><br>Test class: com.LiveProject.testcases.LogoutPage1Test</td>
+<td></td>
+<td>60</td>
+<td>com.LiveProject.testcases.LogoutPage1Test@f6c48ac</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.OrderConfirmPage1Rest.clickonPay()'><b>clickonPay</b><br>Test class: com.LiveProject.testcases.OrderConfirmPage1Rest</td>
+<td></td>
+<td>56</td>
+<td>com.LiveProject.testcases.OrderConfirmPage1Rest@13deb50e</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.PaymentPage1Test.clickonPay()'><b>clickonPay</b><br>Test class: com.LiveProject.testcases.PaymentPage1Test</td>
+<td></td>
+<td>59</td>
+<td>com.LiveProject.testcases.PaymentPage1Test@3abbfa04</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.AddressPage1Test.clickplaceorder()'><b>clickplaceorder</b><br>Test class: com.LiveProject.testcases.AddressPage1Test</td>
+<td></td>
+<td>47</td>
+<td>com.LiveProject.testcases.AddressPage1Test@146ba0ac</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.IndexPage1Test.clicksignup()'><b>clicksignup</b><br>Test class: com.LiveProject.testcases.IndexPage1Test</td>
+<td></td>
+<td>2</td>
+<td>com.LiveProject.testcases.IndexPage1Test@4dfa3a9d</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.signUpPage1Test.loginTo()'><b>loginTo</b><br>Test class: com.LiveProject.testcases.signUpPage1Test<br>Parameters: rajkumarkanugu72@gmail.com, admin@123</td>
+<td></td>
+<td>27</td>
+<td>com.LiveProject.testcases.signUpPage1Test@464bee09</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.SearchResultPage1Test.searchProduct()'><b>searchProduct</b><br>Test class: com.LiveProject.testcases.SearchResultPage1Test</td>
+<td></td>
+<td>42</td>
+<td>com.LiveProject.testcases.SearchResultPage1Test@6eebc39e</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.SearchPage1Test.searchProduct()'><b>searchProduct</b><br>Test class: com.LiveProject.testcases.SearchPage1Test</td>
+<td></td>
+<td>35</td>
+<td>com.LiveProject.testcases.SearchPage1Test@685cb137</td></tr>
+<tr>
+<td title='com.LiveProject.testcases.IndexPage1Test.verifyLogo()'><b>verifyLogo</b><br>Test class: com.LiveProject.testcases.IndexPage1Test</td>
+<td></td>
+<td>0</td>
+<td>com.LiveProject.testcases.IndexPage1Test@4dfa3a9d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -78,8 +323,8 @@ function toggleAllBoxes() {
 <td title='com.LiveProject.testcases.AccountCreatnPage1Test.createAccount()'><b>createAccount</b><br>Test class: com.LiveProject.testcases.AccountCreatnPage1Test</td>
 <td><div><pre>org.testng.TestNGException: 
 DataProvider should be static: public java.lang.Object[][] com.LiveProject.Dataprovidrs.DataProvidrsCls.accountCreation()
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1691538257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1691538257'><pre>org.testng.TestNGException: 
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1211071216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1211071216'><pre>org.testng.TestNGException: 
 DataProvider should be static: public java.lang.Object[][] com.LiveProject.Dataprovidrs.DataProvidrsCls.accountCreation()
 	at org.testng.internal.Parameters.findDataProvider(Parameters.java:331)
 	at org.testng.internal.Parameters.findDataProvider(Parameters.java:265)
@@ -105,7 +350,7 @@ DataProvider should be static: public java.lang.Object[][] com.LiveProject.Datap
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>com.LiveProject.testcases.AccountCreatnPage1Test@66a3ffec</td></tr>
+<td>com.LiveProject.testcases.AccountCreatnPage1Test@1a968a59</td></tr>
 </table><p>
 </body>
 </html>

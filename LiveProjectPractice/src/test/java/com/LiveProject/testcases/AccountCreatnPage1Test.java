@@ -17,7 +17,6 @@ import com.LiveProject.Pageobjects.SignUpPage;
 
 public class AccountCreatnPage1Test extends BaseClass {
 	
-	ActionDivers actn = new ActionDivers();
 	
 	IndexPage indexpage ;
 	SignUpPage uppage;
@@ -32,6 +31,7 @@ public class AccountCreatnPage1Test extends BaseClass {
 		
 		launchApp(browser);
 	}
+	
 	
 	@AfterMethod(groups={"smoke","sanity","Regression"})
 	public void teardown(){

@@ -92,7 +92,9 @@ public class DataProvidrsCls  {
 		}
 		
 		@DataProvider(name = "createAccntDetails")
-		public Object[][] accountCreation() {
+		public static Object[][] accountCreation() {
+
+			NewExcellLibrary obj = new NewExcellLibrary();
 
 			// Totals rows count
 			int rows = obj.getRowCount("accountcreationdetails");
